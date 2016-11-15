@@ -142,6 +142,7 @@ def adding_to_dennis
   
   # adds 'Assembly' to Dennis Ritchie's languages
   # CODE HERE
-  programmer_hash[:dennis_ritchie][:languages][1]="Assembly"
+  # programmer_hash[:dennis_ritchie][:languages][1]="Assembly"
+  programmer_hash[:dennis_ritchie][:languages]<< "Assembly"
   programmer_hash
 end
