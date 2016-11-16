@@ -17,7 +17,7 @@ def hopper
  		}
     
   # CODE HERE
-    
+    return programmer_hash[:grace_hopper]
 end
 
 def alan_kay_is_known_for
@@ -40,7 +40,7 @@ def alan_kay_is_known_for
      
   # What combination of keys would you use to return the value of the :known_for key of :alan_kay?
   # CODE HERE
-     
+     return programmer_hash[:alan_kay][:known_for]
 end
 
 def dennis_ritchies_language
@@ -61,7 +61,7 @@ def dennis_ritchies_language
       }
     }
   # CODE HERE
-  
+    return programmer_hash[:dennis_ritchie][:languages].first
 end
 
 def adding_matz
@@ -88,7 +88,7 @@ def adding_matz
   # VALUE
   # {:known_for => "Ruby", :languages => ["LISP, C"]}
   # CODE HERE
-  
+  return programmer_hash[:yukihiro_matsumoto] = {:known_for => "Ruby", :languages => ["LISP, C"]}
 end
 
 def changing_alan
@@ -111,6 +111,7 @@ def changing_alan
   
   # change what Alan Kay is :known_for to "GUI"
   # CODE HERE
+  #return programmer_hash[:grace_hopper][:alan_kay][:dennis_ritchie][:yukihiro_matsumoto]
   
 end
 
@@ -134,5 +135,6 @@ def adding_to_dennis
   
   # adds 'Assembly' to Dennis Ritchie's languages
   # CODE HERE
-  
+  programmer_hash[:dennis_ritchie][:languages] << "Assembly"
+	return programmer_hash
 end
