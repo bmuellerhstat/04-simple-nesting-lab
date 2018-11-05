@@ -69,10 +69,6 @@ def adding_matz
   # DO NOT EDIT THIS HASH
 	programmer_hash = 
  		{
-      :yukihiro_matsumoto => {
-        :known_for => "Ruby",
-        :languages => ["LISP, C"]
-      },
       :grace_hopper => {
         :known_for => "COBOL",
         :languages => ["COBOL", "FORTRAN"]
@@ -93,7 +89,8 @@ def adding_matz
   # VALUE
   # {:known_for => "Ruby", :languages => ["LISP, C"]}
   # CODE HERE
-  
+  programmer_hash[:yukihiro_matsumoto => {:known_for => "Ruby", :langauges => ["LISP, C"]}]
+  programmer_hash
 end
 
 def changing_alan
