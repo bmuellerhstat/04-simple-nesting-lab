@@ -88,7 +88,7 @@ def adding_matz
   # VALUE
   # {:known_for => "Ruby", :languages => ["LISP, C"]}
   # CODE HERE
-  programmer_hash.merge!(yukihiro_matsumoto:{:known_for => "Ruby", :languages => ["LISP, C"]})
+  programmer_hash.merge(yukihiro_matsumoto:{:known_for => "Ruby", :languages => ["LISP, C"]})
 end
 
 def changing_alan
@@ -135,5 +135,5 @@ def adding_to_dennis
   
   # adds 'Assembly' to Dennis Ritchie's languages
   # CODE HERE
-  programmer_hash.merge!({:dennis_ritchie => {:languages => ["C", "Assembly"]}}) 
+  programmer_hash.merge({:dennis_ritchie => {:languages => ["C", "Assembly"]}}) 
 end
