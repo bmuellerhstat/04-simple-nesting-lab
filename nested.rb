@@ -131,7 +131,6 @@ def adding_to_dennis
         :languages => ["C"]
       }
     }
-  
   # adds 'Assembly' to Dennis Ritchie's languages
   # CODE HERE
   programmer_hash.merge!({:dennis_ritchie => {:languages => ["C", "Assembly"]}}) 
